@@ -45,4 +45,6 @@ while True:
     input_str = input("Введіть число або або 'вихід', 'exit', 'quit', 'e', 'q'  для виходу: ")
     if input_str.lower() in ("вихід", "exit", "quit", "e", "q"):
         break
+    if input_str == "":
+        continue
     print(num(input_str))
