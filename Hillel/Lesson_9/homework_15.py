@@ -1,5 +1,6 @@
 # Homework 15 by Polskoi Yuri
 
+
 def num(str_num):
 
     negative = str_num[0] == '-'
