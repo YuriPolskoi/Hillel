@@ -13,4 +13,3 @@ input_data = {
 
 with open('hw_18.json', 'w') as f:
     json.dump(input_data, f)
-
